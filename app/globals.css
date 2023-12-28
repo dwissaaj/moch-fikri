@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --swiper-navigation-color: #a5e6b5;
+    --swiper-pagination-progressbar-bg-color: rgba(176, 97, 97,1);
+  }

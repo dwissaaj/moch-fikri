@@ -1,9 +1,9 @@
 import Link from "next/link";
-
+import Image from 'next/image'
 export default function Head() {
     return (
-        <div className="h-dvh bg-home-pattern font-sinline py-8 ">
-            <div className="w-screen flex flex-col justify-center gap-8 items-center ">
+        <div className="relaltive w-dvw h-dvh overflow-y-hidden bg-home-pattern font-sinline py-8 ">
+            <div className=" flex flex-col justify-center gap-8 items-center ">
                 <div className="text-center p-4">
                     <h1 className="text-5xl md:text-6xl lg:text-9xl text-white font-sdisplay font-extrabold">MOCHAMAD FIKRI</h1>
                     <p className="text-lg md:text-xl lg:text-3xl text-white/80 font-sdisplay text-center">Don`t need to see my
@@ -28,7 +28,37 @@ export default function Head() {
                             <canvas className="size-6 lg:size-12 2xl:size-16  bg-pastel-purple rounded-full"></canvas>
                             <p className="font-sdisplay font-extrabold text-white text-2xl lg:text-4xl 2xl:text-6xl">MOTION GRAPHIHC</p>
                         </div>
+
                     </div>
+
+                </div>
+                <div className="w-screen flex justify-around ">
+                    <div>
+                    <p className="text-white font-sdisplay text-2xl lg:text-4xl 2xl:text-6xl">Collaboration With</p>
+                    </div>
+                    <div>
+                    <Link className="text-4xl lg:text-6xl 2xl:text-8xl text-teal-500 font-extrabold  transition duration-300 ease-in-out hover:text-teal-300" href="https://www.kisetsu.tech/" >KISETSU.TECH</Link>
+                    </div>
+                </div>
+                <div className="absolute bottom-0 w-full flex flex-col items-center jutify-center bg-neutral-700">
+                    <div className="">
+                    <p className=" font-sdisplay italic text-white/80 text-2xl">CLIENT OF MINE</p>
+                    </div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-4">
+                        <div className="relative size-32 md:size-64">
+                            <Image style={{width : '100%'}} alt="harf media" src="/home/company/6.svg" fill={true}/>
+                        </div>
+                        <div className="relative size-32 md:size-64">
+                            <Image style={{width : '100%'}} alt="harf media" src="/home/company/7.svg" fill={true}/>
+                        </div>
+                        <div className="relative size-32 md:size-64">
+                            <Image style={{width : '100%'}} alt="harf media" src="/home/company/8.svg" fill={true}/>
+                        </div>
+                        <div className="relative size-32 md:size-64">
+                            <Image style={{width : '100%'}} alt="harf media" src="/home/company/9.svg" fill={true}/>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

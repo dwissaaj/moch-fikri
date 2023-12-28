@@ -17,15 +17,21 @@ const config: Config = {
       colors: {
         'base-black': '#030712',
         'pastel-blue' : '#7BD3EA',
-      
+        'base-black-low' : '#242832',
         'pastel-pink' : '#FF90BC',
-        'pastel-purple' : '#CCC1FF',
-        'pastel-white' : '#F9F9F9'
+        'pastel-purple' : '#FF90BC',
+        'pastel-white' : '#F9F9F9',
+        'pastel-beige' : '#F0DBAF',
+        'pastel-yellow' : '#FDFFAE',
+        'pastel-brown' : '#EBE3D5',
+        'pastel-green' : '#C3E2C2'
       },
       fontFamily : {
         sdisplay: ['var(--font-sdisplay)'],
         sstencil: ['var(--font-sstencil)'],
         sinline: ['var(--font-sinline)'],
+        st: ['var(--font-st)'],
+        stmono: ['var(--font-stMono)']
       }
     },
   },
