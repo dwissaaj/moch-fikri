@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'home-pattern' : "url('../public/home/home.png')",
+        'home-gradient' : "url('../public/home/home-2.png')",
+        'home-gradient-two' : "url('../public/home/home-2.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -17,14 +19,17 @@ const config: Config = {
       colors: {
         'base-black': '#030712',
         'pastel-blue' : '#7BD3EA',
-        'base-black-low' : '#242832',
+        'base-black-low' : '#242832', 
+        'base-black-mid' : '#272B34',
         'pastel-pink' : '#FF90BC',
         'pastel-purple' : '#FF90BC',
         'pastel-white' : '#F9F9F9',
         'pastel-beige' : '#F0DBAF',
         'pastel-yellow' : '#FDFFAE',
         'pastel-brown' : '#EBE3D5',
-        'pastel-green' : '#C3E2C2'
+        'pastel-green' : '#C3E2C2',
+        'pastel-orange' : '#E6B566',
+        'pastel-teal' : '#A3DDCB'
       },
       fontFamily : {
         sdisplay: ['var(--font-sdisplay)'],

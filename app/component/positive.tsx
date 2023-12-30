@@ -15,7 +15,7 @@ export default function Positive() {
                                 <h3 className="text-xl font-stmono">Reliable</h3>
                             </div>
                             <div>
-                                <p className="font-st">Deliver your project in cheap way perfect for start up, small business or owner but still dedicated for creating amazing product</p>
+                                <p className="font-st">Deliver your project in cheap way perfect for start up, small business or owner but still dedicated for creating amazing product 💵</p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function Positive() {
                                 <h3 className="text-xl font-stmono">Need More Crew?</h3>
                             </div>
                             <div>
-                                <p className="font-st">Deliver your project in cheap way perfect for start up, small business or owner but still dedicated for creating amazing product</p>
+                                <p className="font-st">If you think want to scale your production? call me. I have been networking with dozens of professional in agency, production house and freelance from variance of job and production type. Director of Photography, Gaffer, Animator to 3D Artist ready for help our content 👥</p>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Positive() {
                                 <h3 className="text-xl font-stmono">Professional</h3>
                             </div>
                             <div>
-                                <p className="font-st">Deliver your project in cheap way perfect for start up, small business or owner but still dedicated for creating amazing product</p>
+                                <p className="font-st">Deliver your project in cheap way perfect for start up, small business or owner but still dedicated for creating amazing product 👷</p>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export default function Positive() {
                                 <h3 className="text-xl font-stmono">Fast</h3>
                             </div>
                             <div>
-                                <p className="font-st">Content creation is about Speed and against time. Need assemble team or content for</p>
+                                <p className="font-st">Content creation is about Speed and against time. We can do lighting for you ⚡</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export default function Positive() {
                             <div>
                                 <p className="font-st">I support music and artist for providing
 music for content result in free copyright. All our app also premium
-for supporting developer</p>
+for supporting developer 🎵</p>
                             </div>
                         </div>
                     </div>

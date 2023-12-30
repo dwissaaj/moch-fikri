@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${bg_inline.variable} ${bg_text.variable} ${bg_stencil.variable} ${share_tech.variable} ${share_tech_mono.variable}` }>
+    <html lang="en" className={`bg-base-black ${bg_inline.variable} ${bg_text.variable} ${bg_stencil.variable} ${share_tech.variable} ${share_tech_mono.variable}` }>
       <body >{children}</body>
     </html>
   )

@@ -23,7 +23,7 @@ export default function Review() {
             person: 'Dwi Aji',
             job: 'Front End | Data Analyst',
             imageUrl: '/avatar/review-5.jpg',
-            color: 'bg-pastel-yellow'
+            color: 'bg-pastel-teal'
         },
         {
             title: 'CREATIVE',
@@ -31,7 +31,7 @@ export default function Review() {
             person: 'Rivenskly',
             job: 'Director Of Photography',
             imageUrl: '/avatar/review-1.svg',
-            color: 'bg-pastel-beige'
+            color: 'bg-pastel-orange'
         },
         {
             title: 'HARD WORKING',
@@ -39,7 +39,7 @@ export default function Review() {
             person: 'Muhaimin Atmaja',
             job: 'Gaffer',
             imageUrl: '/avatar/review-3.jpg',
-            color: 'bg-pastel-brown'
+            color: 'bg-pastel-teal'
         },
         {
             title: 'CONSISTEN',
@@ -47,13 +47,13 @@ export default function Review() {
             person: 'Fuad',
             job: 'Editor | Drone Pilot',
             imageUrl: '/avatar/review-4.jpg',
-            color: 'bg-pastel-green'
+            color: 'bg-pastel-orange'
         },
         
 
     ]
     return (
-        <div className='w-screen flex justify-center p-8 bg-base-black'>
+        <div className=' flex justify-center p-8 bg-base-black'>
             <Swiper navigation={true} modules={[Navigation, Pagination]} className="mySwiper bg-base-black">
 
                 {reviewsAll.map(datas =>
