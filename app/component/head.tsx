@@ -12,8 +12,8 @@ export default function Head() {
                             face just look at my content. Won`t eat or sleep until I finished my death-line</p>
                     </div>
                     <div className="flex items-center gap-9 backdrop-blur-xl font-sdisplay">
-                        <Link href='' className='w-44 lg:w-52 text-lg lg:text-2xl shadow-md shadow-neutral-100 text-center transition ease-in-out hover:bg-neutral-200  bg-neutral-500 px-8 py-2 text-black rounded-2xl'>Contact </Link>
-                        <Link href='' className="text-lg lg:text-2xl
+                        <Link href='https://wa.me/628819080346' className='w-44 lg:w-52 text-lg lg:text-2xl shadow-md shadow-neutral-100 text-center transition ease-in-out hover:bg-neutral-200  bg-neutral-500 px-8 py-2 text-black rounded-2xl'>Contact </Link>
+                        <Link href='https://drive.google.com/drive/folders/1qQku0kLbj8tHpFBd1j6JvHSRG-Hqpt5p' className="text-lg lg:text-2xl
                     transition duration-300 ease-in-out hover:-translate-y-2 text-white underline"> Explore my Project</Link>
                     </div>
                     <div className="flex gap-6">
@@ -42,9 +42,7 @@ export default function Head() {
                             <Link className="text-4xl lg:text-6xl 2xl:text-8xl text-teal-500 font-extrabold  transition duration-300 ease-in-out hover:text-teal-300" href="https://www.kisetsu.tech/" >KISETSU.TECH</Link>
                         </div>
                     </div>
-                    {/* <div className="absolute bottom-0 overflow-hidden">
-                    <Company />
-                </div> */}
+            
 
                 </div>
                 <div>

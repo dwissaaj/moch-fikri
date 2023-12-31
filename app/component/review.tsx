@@ -5,25 +5,17 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import '../css/style.css';
 import ReviewCard from './base/card-review';
-import { Reviews } from '../type/review';
-interface ReviewsCard {
-    title: string;
-    reviewText: string;
-    person: string;
-    job: string;
-    imageUrl: string;
-    color: string;
 
-}
+
 export default function Review() {
-    let reviewsAll = [
+    const reviewsAll = [
         {
             title: 'CREATIVE',
             reviewText: 'From motion graphic, editing and art he basically can do everything. Man behind the gun is best word define him',
             person: 'Dwi Aji',
             job: 'Front End | Data Analyst',
             imageUrl: '/avatar/review-5.jpg',
-            color: 'bg-pastel-teal'
+            color: 'bg-maroon'
         },
         {
             title: 'CREATIVE',
@@ -31,7 +23,7 @@ export default function Review() {
             person: 'Rivenskly',
             job: 'Director Of Photography',
             imageUrl: '/avatar/review-1.svg',
-            color: 'bg-pastel-orange'
+            color: 'bg-neutral-100'
         },
         {
             title: 'HARD WORKING',
@@ -39,7 +31,7 @@ export default function Review() {
             person: 'Muhaimin Atmaja',
             job: 'Gaffer',
             imageUrl: '/avatar/review-3.jpg',
-            color: 'bg-pastel-teal'
+            color: 'bg-maroon'
         },
         {
             title: 'CONSISTEN',
@@ -47,17 +39,18 @@ export default function Review() {
             person: 'Fuad',
             job: 'Editor | Drone Pilot',
             imageUrl: '/avatar/review-4.jpg',
-            color: 'bg-pastel-orange'
+            color: 'bg-neutral-100'
         },
         
-
+    
     ]
+    
     return (
-        <div className=' flex justify-center p-8 bg-base-black'>
-            <Swiper navigation={true} modules={[Navigation, Pagination]} className="mySwiper bg-base-black">
-
+        
+            <div className=' flex justify-center p-8 '>
+            <Swiper navigation={true} modules={[Navigation, Pagination]} className="mySwiper">
                 {reviewsAll.map(datas =>
-                    <SwiperSlide className='bg-base-black'>
+                    <SwiperSlide  key={datas.title} className=''>
                         <ReviewCard title={datas.title} job={datas.job} person={datas.person}
                             imageUrl={datas.imageUrl} reviewText={datas.reviewText} color={datas.color} />
 
@@ -66,5 +59,6 @@ export default function Review() {
             </Swiper>
 
         </div>
+   
     )
 }
